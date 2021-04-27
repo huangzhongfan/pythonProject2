@@ -1,0 +1,34 @@
+用用例编号,用例标题,dep_id,dep_name,master_name,slogan,预期
+SJTJ001,覆盖所有参数，都取正确的参数值,T01,Test学院,Test-Master,Here is Slogan,201
+SJTJ002,覆盖所有必选参数，不包括可选参数,T02,Test学院,Test-Master,,201
+SJTJ016,所有参数都取最大值,asdfghjklz1,asdfghjklzasdfghjklz,asdfghjklzasdfghjklz,asdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklz,201
+SJTJ015,所有参数都取最小值,T,E,F,,201
+SJTJ017,dep_id超出最大值,asdfghjklz,asdfghjklzasdfghjklz,asdfghjklzasdfghjklz,asdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklz,400
+SJTJ018,dep_name超出最大值,a123456789,asdfghjklzasdfghjklz1,asdfghjklzasdfghjklz1,asdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklz,400
+SJTJ019,master_name超出最大值,b123456789,asdfghjklzasdfghjklz,asdfghjklzasdfghjklz,asdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklz,400
+SJTJ020,slogan超出最大值,c123456789,asdfghjklzasdfghjklz,asdfghjklzasdfghjklz,asdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklz,400
+SJTJ021,dep_id超出最小值,,asdfghjklzasdfghjklz,asdfghjklzasdfghjklz,asdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklza,400
+SJTJ022,dep_name超出最小值,d123456789,,asdfghjklzasdfghjklz,asdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklz,400
+SJTJ023,master_name超出最小值,e123456789,asdfghjklzasdfghjklz,,asdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklzasdfghjklz,400
+SJTJ024,slogan超出最小值,f123456789,asdfghjklzasdfghjklz,asdfghjklzasdfghjklz,,400
+SJTJ025,dep_id前后加%,%遮天%,遮天学院,叶凡,冰冷和黑暗并存在宇宙深处,400
+SJTJ026,dep_id前后加空格, 遮天 ,遮天学院,叶凡,冰冷和黑暗并存在宇宙深处,400
+SJTJ027,dep_id前后加@,@遮天@,遮天学院,叶凡,冰冷和黑暗并存在宇宙深处,400
+SJTJ028,dep_id前后加！,!遮天!,遮天学院,叶凡,冰冷和黑暗并存在宇宙深处,400
+SJTJ029,dep_id前后加/,/遮天/,遮天学院,叶凡,冰冷和黑暗并存在宇宙深处,400
+SJTJ030,dep_name前后加%,遮天1,%遮天学院%,叶凡,冰冷和黑暗并存在宇宙深处,400
+SJTJ031,dep_name前后加空格,遮天2, 遮天学院 空格,叶凡,冰冷和黑暗并存在宇宙深处,400
+SJTJ032,dep_name前后加@,遮天3,@遮天学院@,叶凡,冰冷和黑暗并存在宇宙深处,400
+SJTJ033,dep_name前后加！,遮天4,!遮天学院！,叶凡,冰冷和黑暗并存在宇宙深处,400
+SJTJ034,dep_name前后加/,遮天5,/遮天学院/,叶凡,冰冷和黑暗并存在宇宙深处,400
+SJTJ035,master_name前后加%,遮天6,遮天学院1,%叶凡%,冰冷和黑暗并存在宇宙深处,400
+SJTJ036,master_name前后加空格,遮天7,遮天学院2, 叶凡 ,冰冷和黑暗并存在宇宙深处,400
+SJTJ037,master_name前后加@,遮天8,遮天学院3,@叶凡@,冰冷和黑暗并存在宇宙深处,400
+SJTJ038,master_name前后加!,遮天9,遮天学院4,!叶凡!,冰冷和黑暗并存在宇宙深处,400
+SJTJ039,master_name前后加/,遮天10,遮天学院5,/叶凡/,冰冷和黑暗并存在宇宙深处,400
+SJTJ040,slogan前后加%,T11,云霄学院1,云霄1,%吾欲修仙 法力无边%,400
+SJTJ041,slogan前后加空格,T12,云霄学院2,云霄2, 吾欲修仙 法力无边 ,400
+SJTJ042,slogan前后加@,T13,云霄学院3,云霄3,@吾欲修仙 法力无边@,400
+SJTJ043,slogan前后加！,T14,云霄学院4,云霄4,!吾欲修仙 法力无边!,400
+SJTJ044,slogan前后加/,T15,云霄学院5,云霄5,/吾欲修仙 法力无边/,400
+SJTJ045,dep_id重复输入,T01,遮天学院6,叶凡,冰冷和黑暗并存在宇宙深处,200
